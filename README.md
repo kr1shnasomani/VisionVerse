@@ -4,7 +4,7 @@ The project is an image captioning model using DenseNet201 and LSTM, generating 
 ## Execution Guide:
 1. Run the following command line in the terminal:
    ```
-   pip install numpy pandas tqdm seaborn matplotlib scikit-learn tensorflow keras
+   pip install numpy pandas tqdm matplotlib scikit-learn tensorflow keras
    ```
    
 2. Download the dataset (link to the dataset: **https://www.kaggle.com/datasets/adityajn105/flickr8k**)
