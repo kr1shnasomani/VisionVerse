@@ -67,11 +67,11 @@ The provided code implements an image captioning model that uses a combination o
 
 10. **Model Compilation:** The model is compiled with categorical cross-entropy loss and the Adam optimizer, which is suitable for multi-class classification tasks like word prediction in captions.
 
-### 11. **Model Training:**
+11. **Model Training:**
    - The model is trained with callbacks for early stopping, learning rate reduction, and saving the best model based on validation loss.
    - The training process is done for up to 50 epochs, using the custom data generator to feed the model with batches of images and captions.
 
-### 12. **Model Evaluation:** The model's performance is evaluated by printing the best validation accuracy and plotting training/validation accuracy and loss curves over epochs.
+12. **Model Evaluation:** The model's performance is evaluated by printing the best validation accuracy and plotting training/validation accuracy and loss curves over epochs.
 
 13. **Model Prediction:** The `predict_caption` function generates a caption for a given image. It starts with the token `startseq` and predicts one word at a time using the trained model, stopping when the token `endseq` is predicted or when the maximum caption length is reached.
 
